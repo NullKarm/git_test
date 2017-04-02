@@ -1,0 +1,1730 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+            <title>Add-ons for Firefox</title>
+
+    <link rel="shortcut icon" type="image/x-icon"
+          href="https://addons.cdn.mozilla.net/static/img/favicon.ico">
+
+    
+        <link title="Firefox Add-ons"
+          rel="search" type="application/opensearchdescription+xml"
+          href="/en-US/firefox/opensearch.xml" />
+
+          <link href="https://addons.cdn.mozilla.net/static/css/tabzilla/tabzilla.css" rel="stylesheet" />
+              <link rel="stylesheet" media="all" href="https://addons.cdn.mozilla.net/static/css/zamboni/impala-min.css?build=5cb8048" />
+      <link rel="stylesheet" media="all" href="https://addons.cdn.mozilla.net/static/css/restyle/css-min.css?build=af9519e" />
+      <!--[if lt IE 9]>
+        <script src="https://addons.cdn.mozilla.net/static/js/lib/iepp.min.js?b=f1b600ed8-58dd6ad3"></script>
+      <![endif]-->
+      <!--[if lte IE 9]>
+        <link rel="stylesheet" href="https://addons.cdn.mozilla.net/static/css/legacy/ie9.css?b=f1b600ed8-58dd6ad3">
+      <![endif]-->
+    
+      <link rel="alternate" type="application/rss+xml" title="Popular Extensions"
+        href="/en-US/firefox/extensions/format:rss?sort=users">
+  <link rel="alternate" type="application/rss+xml" title="Featured Extensions"
+        href="/en-US/firefox/featured/format:rss">
+    <noscript><link rel="stylesheet" href="https://addons.cdn.mozilla.net/static/css/impala/nojs.css?b=f1b600ed8-58dd6ad3"></noscript>
+
+    
+    
+    <script src="https://addons.cdn.mozilla.net/static/js/preload-min.js?build=f1b600ed8-58dd6ad3"></script>
+  </head>
+  <body class="html-ltr firefox moz-header-slim home is-impala restyle"
+        data-app="firefox"
+        data-appname="Firefox"
+        data-appid="1"
+        data-anonymous="true"
+        data-readonly="false"
+        data-media-url="https://addons.cdn.mozilla.net/user-media/"
+        data-static-url="https://addons.cdn.mozilla.net/static/"
+        data-raven-dsn="https://8c1c5936578948a9a0614cbbafccf049@sentry.prod.mozaws.net/78"
+        data-raven-urls="[&#39;addons.mozilla.org&#39;, &#39;addons.cdn.mozilla.net&#39;]"
+        data-fxa-config="{&#34;state&#34;: &#34;9fc6efc048a3e7a5c5bfd0d4adfd07812e0b62dc094a63638e8c8b6d67d6d7a1&#34;, &#34;clientId&#34;: &#34;a4907de5fa9d78fc&#34;, &#34;oauthHost&#34;: &#34;https://oauth.accounts.firefox.com/v1&#34;, &#34;profileHost&#34;: &#34;https://profile.accounts.firefox.com/v1&#34;, &#34;redirectUrl&#34;: &#34;https://addons.mozilla.org/api/v3/accounts/authenticate/&#34;, &#34;scope&#34;: &#34;profile&#34;, &#34;contentHost&#34;: &#34;https://accounts.firefox.com&#34;}"
+        >
+
+    <div id="main-wrapper">
+      <div id="page" class="c">
+                  <div class="header-bg">
+            <div class="amo-header-wrapper">
+              <div id="tabzilla">
+    <a href="https://www.mozilla.org/">Mozilla</a>
+</div>              <div class="amo-header">
+                <nav id="aux-nav" role="navigation" class="menu-nav c">
+                  <ul>
+                                            <li class="account anonymous nomenu login legacy">
+    <a href="https://oauth.accounts.firefox.com/v1/authorization?action=signup&amp;scope=profile&amp;state=9fc6efc048a3e7a5c5bfd0d4adfd07812e0b62dc094a63638e8c8b6d67d6d7a1%3AL2VuLVVTL2ZpcmVmb3gv&amp;redirect_url=https%3A%2F%2Faddons.mozilla.org%2Fapi%2Fv3%2Faccounts%2Fauthenticate%2F&amp;client_id=a4907de5fa9d78fc">Register</a> or <a href="https://oauth.accounts.firefox.com/v1/authorization?action=signin&amp;scope=profile&amp;state=9fc6efc048a3e7a5c5bfd0d4adfd07812e0b62dc094a63638e8c8b6d67d6d7a1%3AL2VuLVVTL2ZpcmVmb3gv&amp;redirect_url=https%3A%2F%2Faddons.mozilla.org%2Fapi%2Fv3%2Faccounts%2Fauthenticate%2F&amp;client_id=a4907de5fa9d78fc">Log in</a>  </li>
+
+                                                              <li>
+                        <a href="#" id="other-apps" title="Find add-ons for other applications">Other Applications</a>
+                        <ul class="other-apps">
+                                                                                                                                          <li id="app-thunderbird" class="thunderbird">
+                                <a href="/en-US/thunderbird">Thunderbird</a>
+                              </li>
+                                                                                                                <li id="app-android" class="android">
+                                <a href="/en-US/android">Firefox for Android</a>
+                              </li>
+                                                                                                                                                                      <li id="app-seamonkey" class="seamonkey">
+                                <a href="/en-US/seamonkey">SeaMonkey</a>
+                              </li>
+                                                                              </ul>
+                      </li>
+                                      </ul>
+                </nav>
+                <div class="header-search" role="search">
+                                                                                  <form id="search" action="/en-US/firefox/search/" data-no-csrf>
+  <input id="search-q" type="text" name="q" autocomplete="off" title=""
+         class="text placeholder"
+         placeholder="search for add-ons"
+         value="">
+        <input id="id_appver" name="appver" type="hidden" />
+    <input id="id_platform" name="platform" type="hidden" />
+    <button class="search-button" type="submit" title="Search"
+         src="https://addons.cdn.mozilla.net/static/img/zamboni/global/btn-search.png?b=f1b600ed8-58dd6ad3"></button>
+      <div id="site-search-suggestions"
+         data-cat="all"
+         data-src="/en-US/firefox/search/suggestions"></div>
+  </form>                                                      </div>
+                <div id="masthead">
+                                    <h1 class="site-title">
+  <a href="/en-US/firefox/" title="Return to the Firefox Add-ons homepage">
+    <img alt="" src="https://addons.cdn.mozilla.net/static/img/icons/firefox.png?b=f1b600ed8-58dd6ad3">
+    Add-ons
+</a>
+</h1>                  
+
+<nav id="site-nav" class="menu-nav c">
+  <ul>
+      <li id="extensions">
+    <a href="/En-us/firefox/extensions/">Extensions</a>
+    <ul class="two-col">
+              <li><em><a href="/En-us/firefox/extensions/?sort=featured">Featured</a></em></li>
+              <li><em><a href="/En-us/firefox/extensions/?sort=users">Most Popular</a></em></li>
+              <li><em><a href="/En-us/firefox/extensions/?sort=rating">Top Rated</a></em></li>
+                  <li><a href="/En-us/firefox/extensions/alerts-updates/">Alerts &amp; Updates</a></li>
+            <li><a href="/En-us/firefox/extensions/appearance/">Appearance</a></li>
+            <li><a href="/En-us/firefox/extensions/bookmarks/">Bookmarks</a></li>
+            <li><a href="/En-us/firefox/extensions/download-management/">Download Management</a></li>
+            <li><a href="/En-us/firefox/extensions/feeds-news-blogging/">Feeds, News &amp; Blogging</a></li>
+            <li><a href="/En-us/firefox/extensions/games-entertainment/">Games &amp; Entertainment</a></li>
+            <li><a href="/En-us/firefox/extensions/language-support/">Language Support</a></li>
+            <li><a href="/En-us/firefox/extensions/photos-music-videos/">Photos, Music &amp; Videos</a></li>
+            <li><a href="/En-us/firefox/extensions/privacy-security/">Privacy &amp; Security</a></li>
+            <li><a href="/En-us/firefox/extensions/search-tools/">Search Tools</a></li>
+            <li><a href="/En-us/firefox/extensions/shopping/">Shopping</a></li>
+            <li><a href="/En-us/firefox/extensions/social-communication/">Social &amp; Communication</a></li>
+            <li><a href="/En-us/firefox/extensions/tabs/">Tabs</a></li>
+            <li><a href="/En-us/firefox/extensions/web-development/">Web Development</a></li>
+            <li><a href="/En-us/firefox/extensions/other/">Other</a></li>
+          </ul>
+  </li>
+
+    
+        <li id="themes">
+      <a href="/En-us/firefox/themes/">Themes</a>
+              <ul class="two-col">
+                      <li><em><a href="/En-us/firefox/themes/?sort=popular">Most Popular</a></em></li>
+                      <li><em><a href="/En-us/firefox/themes/?sort=rating">Top Rated</a></em></li>
+                      <li><em><a href="/En-us/firefox/themes/?sort=created">Newest</a></em></li>
+                                <li><a href="/En-us/firefox/themes/abstract">Abstract</a></li>
+                      <li><a href="/En-us/firefox/themes/causes">Causes</a></li>
+                      <li><a href="/En-us/firefox/themes/fashion">Fashion</a></li>
+                      <li><a href="/En-us/firefox/themes/film-and-tv">Film and TV</a></li>
+                      <li><a href="/En-us/firefox/themes/firefox">Firefox</a></li>
+                      <li><a href="/En-us/firefox/themes/foxkeh">Foxkeh</a></li>
+                      <li><a href="/En-us/firefox/themes/holiday">Holiday</a></li>
+                      <li><a href="/En-us/firefox/themes/music">Music</a></li>
+                      <li><a href="/En-us/firefox/themes/nature">Nature</a></li>
+                      <li><a href="/En-us/firefox/themes/other">Other</a></li>
+                      <li><a href="/En-us/firefox/themes/scenery">Scenery</a></li>
+                      <li><a href="/En-us/firefox/themes/seasonal">Seasonal</a></li>
+                      <li><a href="/En-us/firefox/themes/solid">Solid</a></li>
+                      <li><a href="/En-us/firefox/themes/sports">Sports</a></li>
+                      <li><a href="/En-us/firefox/themes/websites">Websites</a></li>
+                  </ul>
+        <div>
+          <a class="complete-themes" href="/En-us/firefox/complete-themes/">
+            Want more customization? Try <b>Complete Themes</b>          </a>
+        </div>
+          </li>
+
+        <li id="collections">
+            <a href="/En-us/firefox/collections/">Collections</a>
+      <ul>
+                  <li><em><a href="/En-us/firefox/collections/?sort=featured">Featured</a></em></li>
+                  <li><em><a href="/En-us/firefox/collections/?sort=users">Most Followers</a></em></li>
+                  <li><em><a href="/En-us/firefox/collections/?sort=created">Newest</a></em></li>
+                <hr>
+        <li><a href="/En-us/firefox/collections/mine/">
+          Collections I've Made</a></li>
+        <li><a href="/En-us/firefox/collections/following/">
+          Collections I'm Following</a></li>
+                <li><a href="/En-us/firefox/collections/mine/favorites">
+          My Favorite Add-ons</a></li>
+      </ul>
+          </li>
+    <li id="more">
+      <a href="#">More&hellip;</a>
+      <ul>
+                  <li class="more-mobile"><a href="/En-us/android">
+            Add-ons for Mobile</a></li>
+                <li class="more-lang"><a href="/En-us/firefox/language-tools/">
+          Dictionaries & Language Packs</a></li>
+        <li><a href="/En-us/firefox/search-tools/">Search Tools</a></li>
+        <li><a href="/En-us/developers/">Developer Hub</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                                  </div>
+                                                                                                      <div class="site-balloon" id="site-nonfx">
+                      <p>
+                        To try the thousands of add-ons available here, download <a href="http://mozilla.org/firefox/?src=amo">Mozilla Firefox</a>, a fast, free way to surf the Web!                      </p>
+                      <a href="#" class="close">Close</a>
+                    </div>
+                                    <div class="site-balloon" id="site-welcome">
+                                        <h3>Welcome to Firefox Add-ons.</h3>
+                    <p>
+                                              Choose from thousands of extra features and styles to make Firefox your own.                                          </p>
+                    <a href="#" class="close">Close</a>
+                  </div>
+                  <div class="site-balloon" id="mobile-banner">
+                    <h3>On the go?</h3>
+                    <p>
+                      Check out our <a class="mobile-link" href="#">Mobile Add-ons site</a>.                    </p>
+                    <a href="#" class="close">Close</a>
+                  </div>
+                                      <section class="island" id="promos" data-promo-url="/en-US/firefox/i/promos">
+      <div>
+        <ul class="slider">
+        </ul>
+      </div>
+    </section>
+                </div>
+            </div>           </div>         
+                                              <!-- aww yeah -->
+
+<section class="secondary">
+    <nav id="side-nav" class="c" data-addontype="1">
+  <h2>Explore</h2>
+  <ul id="side-explore">
+          <li class="s-featured"><em><a href="/en-US/firefox/extensions/?sort=featured">Featured</a></em></li>
+          <li class="s-users"><em><a href="/en-US/firefox/extensions/?sort=users">Most Popular</a></em></li>
+          <li class="s-rating"><em><a href="/en-US/firefox/extensions/?sort=rating">Top Rated</a></em></li>
+      </ul>
+  <h2>Categories</h2>
+  <ul id="side-categories">
+          <li id="c-72"><a href="/en-US/firefox/extensions/alerts-updates/">Alerts &amp; Updates</a></li>
+          <li id="c-14"><a href="/en-US/firefox/extensions/appearance/">Appearance</a></li>
+          <li id="c-22"><a href="/en-US/firefox/extensions/bookmarks/">Bookmarks</a></li>
+          <li id="c-5"><a href="/en-US/firefox/extensions/download-management/">Download Management</a></li>
+          <li id="c-1"><a href="/en-US/firefox/extensions/feeds-news-blogging/">Feeds, News &amp; Blogging</a></li>
+          <li id="c-142"><a href="/en-US/firefox/extensions/games-entertainment/">Games &amp; Entertainment</a></li>
+          <li id="c-37"><a href="/en-US/firefox/extensions/language-support/">Language Support</a></li>
+          <li id="c-38"><a href="/en-US/firefox/extensions/photos-music-videos/">Photos, Music &amp; Videos</a></li>
+          <li id="c-12"><a href="/en-US/firefox/extensions/privacy-security/">Privacy &amp; Security</a></li>
+          <li id="c-13"><a href="/en-US/firefox/extensions/search-tools/">Search Tools</a></li>
+          <li id="c-141"><a href="/en-US/firefox/extensions/shopping/">Shopping</a></li>
+          <li id="c-71"><a href="/en-US/firefox/extensions/social-communication/">Social &amp; Communication</a></li>
+          <li id="c-93"><a href="/en-US/firefox/extensions/tabs/">Tabs</a></li>
+          <li id="c-4"><a href="/en-US/firefox/extensions/web-development/">Web Development</a></li>
+          <li id="c-73"><a href="/en-US/firefox/extensions/other/">Other</a></li>
+      </ul>
+</nav>
+</section>
+
+<section class="primary" id="homepage">
+        <section id="popular-extensions" class="secondary">
+      <h2>Most Popular
+        <a class="seeall" href="/en-US/firefox/extensions/?sort=users">All »</a>
+      </h2>
+      <ol class="toplist">
+      <li><a href="/en-US/firefox/addon/adblock-plus/?src=hp-dl-mostpopular">
+      <b>1.</b>
+      <span class="name">Adblock Plus</span>
+      <small>18,506,665 users</small>
+    </a></li>
+      <li><a href="/en-US/firefox/addon/video-downloadhelper/?src=hp-dl-mostpopular">
+      <b>2.</b>
+      <span class="name">Video DownloadHelper</span>
+      <small>4,693,761 users</small>
+    </a></li>
+      <li><a href="/en-US/firefox/addon/ublock-origin/?src=hp-dl-mostpopular">
+      <b>3.</b>
+      <span class="name">uBlock Origin</span>
+      <small>3,641,836 users</small>
+    </a></li>
+      <li><a href="/en-US/firefox/addon/easyscreenshot/?src=hp-dl-mostpopular">
+      <b>4.</b>
+      <span class="name">Easy Screenshot</span>
+      <small>2,856,324 users</small>
+    </a></li>
+      <li><a href="/en-US/firefox/addon/noscript/?src=hp-dl-mostpopular">
+      <b>5.</b>
+      <span class="name">NoScript Security Suite</span>
+      <small>2,187,108 users</small>
+    </a></li>
+      <li><a href="/en-US/firefox/addon/firebug/?src=hp-dl-mostpopular">
+      <b>6.</b>
+      <span class="name">Firebug</span>
+      <small>1,909,401 users</small>
+    </a></li>
+      <li><a href="/en-US/firefox/addon/search-and-new-tab-by-yahoo/?src=hp-dl-mostpopular">
+      <b>7.</b>
+      <span class="name">Search and New Tab by Yahoo</span>
+      <small>1,679,982 users</small>
+    </a></li>
+      <li><a href="/en-US/firefox/addon/ghostery/?src=hp-dl-mostpopular">
+      <b>8.</b>
+      <span class="name">Ghostery</span>
+      <small>1,335,620 users</small>
+    </a></li>
+      <li><a href="/en-US/firefox/addon/downthemall/?src=hp-dl-mostpopular">
+      <b>9.</b>
+      <span class="name">DownThemAll!</span>
+      <small>1,195,535 users</small>
+    </a></li>
+      <li><a href="/en-US/firefox/addon/greasemonkey/?src=hp-dl-mostpopular">
+      <b>10.</b>
+      <span class="name">Greasemonkey</span>
+      <small>1,155,305 users</small>
+    </a></li>
+  </ol>
+    </section>
+
+    <section class="primary">
+              <div id="featured-extensions" class="island">
+          <h2>Featured Extensions
+            <a class="seeall" href="/en-US/firefox/extensions/?sort=featured">See all »</a>
+          </h2>
+          <ul class="listing-grid c cols-2">
+    <section>
+      <li>
+      <div class="addon hovercard">
+    <div class="icon">
+      <a href="/en-US/firefox/addon/duckduckgo-for-firefox/?src=hp-dl-featured">
+            <img src="https://addons.cdn.mozilla.net/user-media/addon_icons/385/385621-32.png?modified=1485609621" alt="Icon for DuckDuckGo Plus">
+            </a>
+    </div>
+    <div class="summary">
+      <a href="/en-US/firefox/addon/duckduckgo-for-firefox/?src=hp-dl-featured">
+        <h3>DuckDuckGo Plus</h3>
+                              <div class="category more-info">Privacy &amp; Security</div>
+                        </a>
+        <div class="vital">
+            
+<span class="rating">
+              <span class="stars stars-4" title="Rated 4 out of 5 stars">Rated 4 out of 5 stars</span>
+
+      <a href="/en-US/firefox/addon/duckduckgo-for-firefox/reviews/">(170)</a>
+      </span>
+      </div>
+
+          </div>
+  <div class="more">
+    
+<div class="install-shell">
+<div class="install featuredaddon"
+       data-addon="385621"
+  data-icon="https://addons.cdn.mozilla.net/user-media/addon_icons/385/385621-32.png?modified=1485609621"
+  data-developers="/en-US/firefox/addon/duckduckgo-for-firefox/developers"
+  data-versions="/en-US/firefox/addon/385621/versions/"
+  data-name="DuckDuckGo Plus"
+  
+  data-min="38.0a1"
+  data-max="*"
+  data-is-compatible="true"
+  data-is-compatible-app="true"
+  data-compat-overrides="[]"
+>
+  <p class="install-button">
+                            <a class="button  download "
+  data-hash="sha256:3545b4b7fead1e3756e7d166c2d74aa78c634ce27d04fe1077f8fcc45dd04342"
+      href="/firefox/downloads/latest/duckduckgo-for-firefox/addon-385621-latest.xpi?src=hp-hc-featured"
+  >
+      <b></b>
+    <span>
+      Download Now
+          </span>
+  </a>
+      </p>
+</div> 
+
+
+      <div class="d2c-reasons-popup popup">
+      <p>This add-on is not compatible with your version of Firefox because of the following:</p>
+      <ul></ul>
+    </div>
+  <p>
+    <a id="downloadAnyway" hidden="true">Download Anyway</a>
+</p>
+</div> 
+    <span class="addon-summary">
+      DuckDuckGo is the search engine that doesn't track you. This add-on makes DuckDuckGo your default search engine and includes some other useful features.
+    </span>
+    <div class="byline">
+      by <a href="/en-US/firefox/user/duckduckgo/" title="DuckDuckGo">DuckDuckGo</a>    </div>
+          <div class="vitals">
+          <div class="vital">
+                  <span class="adu">
+                    321,760 users        </span>
+            </div>
+
+      </div>
+      </div>
+</div>
+    </li>
+      <li>
+      <div class="addon hovercard">
+    <div class="icon">
+      <a href="/en-US/firefox/addon/turn-off-the-lights/?src=hp-dl-featured">
+            <img src="https://addons.cdn.mozilla.net/user-media/addon_icons/255/255270-32.png?modified=1485169117" alt="Icon for Turn Off the Lights">
+            </a>
+    </div>
+    <div class="summary">
+      <a href="/en-US/firefox/addon/turn-off-the-lights/?src=hp-dl-featured">
+        <h3>Turn Off the Lights</h3>
+                              <div class="category more-info">Appearance</div>
+                        </a>
+        <div class="vital">
+            
+<span class="rating">
+              <span class="stars stars-5" title="Rated 5 out of 5 stars">Rated 5 out of 5 stars</span>
+
+      <a href="/en-US/firefox/addon/turn-off-the-lights/reviews/">(290)</a>
+      </span>
+      </div>
+
+          </div>
+  <div class="more">
+    
+<div class="install-shell">
+<div class="install featuredaddon"
+       data-addon="255270"
+  data-icon="https://addons.cdn.mozilla.net/user-media/addon_icons/255/255270-32.png?modified=1485169117"
+  data-developers="/en-US/firefox/addon/turn-off-the-lights/developers"
+  data-versions="/en-US/firefox/addon/255270/versions/"
+  data-name="Turn Off the Lights"
+   data-after="contrib"
+  data-min="49.0a1"
+  data-max="*"
+  data-is-compatible="true"
+  data-is-compatible-app="true"
+  data-compat-overrides="[]"
+>
+  <p class="install-button">
+                            <a class="button  download "
+  data-hash="sha256:dc5e64cab6ba322ee6f639a0f0b8a10152c880a5d01d8a1a13ca1b72ebb3bb75"
+      href="/firefox/downloads/latest/turn-off-the-lights/addon-255270-latest.xpi?src=hp-hc-featured"
+  >
+      <b></b>
+    <span>
+      Download Now
+          </span>
+  </a>
+      </p>
+</div> 
+
+
+      <div class="d2c-reasons-popup popup">
+      <p>This add-on is not compatible with your version of Firefox because of the following:</p>
+      <ul></ul>
+    </div>
+  <p>
+    <a id="downloadAnyway" hidden="true">Download Anyway</a>
+</p>
+</div> 
+    <span class="addon-summary">
+      The entire page will be fading to dark, so you can watch the video as if you were in the cinema.
+    </span>
+    <div class="byline">
+      by <a href="/en-US/firefox/user/Stefanvd/" title="Stefan vd">Stefan vd</a>    </div>
+          <div class="vitals">
+          <div class="vital">
+                  <span class="adu">
+                    63,874 users        </span>
+            </div>
+
+      </div>
+      </div>
+</div>
+    </li>
+      <li>
+      <div class="addon hovercard">
+    <div class="icon">
+      <a href="/en-US/firefox/addon/video-downloader-prime/?src=hp-dl-featured">
+            <img src="https://addons.cdn.mozilla.net/user-media/addon_icons/664/664688-32.png?modified=1482931218" alt="Icon for Video Downloader Prime">
+            </a>
+    </div>
+    <div class="summary">
+      <a href="/en-US/firefox/addon/video-downloader-prime/?src=hp-dl-featured">
+        <h3>Video Downloader Prime</h3>
+                              <div class="category more-info">Download Management</div>
+                        </a>
+        <div class="vital">
+            
+<span class="rating">
+              <span class="stars stars-4" title="Rated 4 out of 5 stars">Rated 4 out of 5 stars</span>
+
+      <a href="/en-US/firefox/addon/video-downloader-prime/reviews/">(44)</a>
+      </span>
+      </div>
+
+          </div>
+  <div class="more">
+    
+<div class="install-shell">
+<div class="install featuredaddon"
+       data-addon="664688"
+  data-icon="https://addons.cdn.mozilla.net/user-media/addon_icons/664/664688-32.png?modified=1482931218"
+  data-developers="/en-US/firefox/addon/video-downloader-prime/developers"
+  data-versions="/en-US/firefox/addon/664688/versions/"
+  data-name="Video Downloader Prime"
+  
+  data-min="48.0"
+  data-max="54.0"
+  data-is-compatible="true"
+  data-is-compatible-app="true"
+  data-compat-overrides="[]"
+>
+  <p class="install-button">
+                            <a class="button  download "
+  data-hash="sha256:36cf27e804e8dfa75187859ddcbd674474f48f0d7d1b178c7c894cc25f133c45"
+      href="/firefox/downloads/latest/video-downloader-prime/addon-664688-latest.xpi?src=hp-hc-featured"
+  >
+      <b></b>
+    <span>
+      Download Now
+          </span>
+  </a>
+      </p>
+</div> 
+
+
+      <div class="d2c-reasons-popup popup">
+      <p>This add-on is not compatible with your version of Firefox because of the following:</p>
+      <ul></ul>
+    </div>
+  <p>
+    <a id="downloadAnyway" hidden="true">Download Anyway</a>
+</p>
+</div> 
+    <span class="addon-summary">
+      Easily download most popular video formats.
+    </span>
+    <div class="byline">
+      by <a href="/en-US/firefox/user/markmolfird/" title="mark">mark</a>    </div>
+          <div class="vitals">
+          <div class="vital">
+                  <span class="adu">
+                    52,195 users        </span>
+            </div>
+
+      </div>
+      </div>
+</div>
+    </li>
+      <li>
+      <div class="addon hovercard">
+    <div class="icon">
+      <a href="/en-US/firefox/addon/privacy-settings/?src=hp-dl-featured">
+            <img src="https://addons.cdn.mozilla.net/user-media/addon_icons/627/627512-32.png?modified=1478474418" alt="Icon for Privacy Settings">
+            </a>
+    </div>
+    <div class="summary">
+      <a href="/en-US/firefox/addon/privacy-settings/?src=hp-dl-featured">
+        <h3>Privacy Settings</h3>
+                              <div class="category more-info">Privacy &amp; Security</div>
+                        </a>
+        <div class="vital">
+            
+<span class="rating">
+              <span class="stars stars-5" title="Rated 5 out of 5 stars">Rated 5 out of 5 stars</span>
+
+      <a href="/en-US/firefox/addon/privacy-settings/reviews/">(58)</a>
+      </span>
+      </div>
+
+          </div>
+  <div class="more">
+    
+<div class="install-shell">
+<div class="install featuredaddon"
+       data-addon="627512"
+  data-icon="https://addons.cdn.mozilla.net/user-media/addon_icons/627/627512-32.png?modified=1478474418"
+  data-developers="/en-US/firefox/addon/privacy-settings/developers"
+  data-versions="/en-US/firefox/addon/627512/versions/"
+  data-name="Privacy Settings"
+  
+  data-min="29.0"
+  data-max="*"
+  data-is-compatible="true"
+  data-is-compatible-app="true"
+  data-compat-overrides="[]"
+>
+  <p class="install-button">
+                            <a class="button  download "
+  data-hash="sha256:707c5ef7f40b9f586bd841791f91b7f1e601acb99c5c552e4f530bb6c9919ded"
+      href="/firefox/downloads/latest/privacy-settings/addon-627512-latest.xpi?src=hp-hc-featured"
+  >
+      <b></b>
+    <span>
+      Download Now
+          </span>
+  </a>
+      </p>
+</div> 
+
+
+      <div class="d2c-reasons-popup popup">
+      <p>This add-on is not compatible with your version of Firefox because of the following:</p>
+      <ul></ul>
+    </div>
+  <p>
+    <a id="downloadAnyway" hidden="true">Download Anyway</a>
+</p>
+</div> 
+    <span class="addon-summary">
+      Alter Firefox's built-in privacy settings easily with a toolbar panel.
+    </span>
+    <div class="byline">
+      by <a href="/en-US/firefox/user/j_schomery/" title="Jeremy Schomery">Jeremy Schomery</a>    </div>
+          <div class="vitals">
+          <div class="vital">
+                  <span class="adu">
+                    21,724 users        </span>
+            </div>
+
+      </div>
+      </div>
+</div>
+    </li>
+      <li>
+      <div class="addon hovercard">
+    <div class="icon">
+      <a href="/en-US/firefox/addon/ipfood/?src=hp-dl-featured">
+            <img src="https://addons.cdn.mozilla.net/user-media/addon_icons/502/502390-32.png?modified=1419258031" alt="Icon for ipFood">
+            </a>
+    </div>
+    <div class="summary">
+      <a href="/en-US/firefox/addon/ipfood/?src=hp-dl-featured">
+        <h3>ipFood</h3>
+                              <div class="category more-info">Tabs</div>
+                        </a>
+        <div class="vital">
+            
+<span class="rating">
+              <span class="stars stars-4" title="Rated 4 out of 5 stars">Rated 4 out of 5 stars</span>
+
+      <a href="/en-US/firefox/addon/ipfood/reviews/">(7)</a>
+      </span>
+      </div>
+
+          </div>
+  <div class="more">
+    
+<div class="install-shell">
+<div class="install featuredaddon"
+       data-addon="502390"
+  data-icon="https://addons.cdn.mozilla.net/user-media/addon_icons/502/502390-32.png?modified=1419258031"
+  data-developers="/en-US/firefox/addon/ipfood/developers"
+  data-versions="/en-US/firefox/addon/502390/versions/"
+  data-name="ipFood"
+  
+  data-min="3.5"
+  data-max="53.*"
+  data-is-compatible="true"
+  data-is-compatible-app="true"
+  data-compat-overrides="[]"
+>
+  <p class="install-button">
+                            <a class="button  download "
+  data-hash="sha256:93d84d094780ce8c263ba5b86e70634f0206d54a6f758e11d76a74f3ff518dfc"
+      href="/firefox/downloads/latest/ipfood/addon-502390-latest.xpi?src=hp-hc-featured"
+  >
+      <b></b>
+    <span>
+      Download Now
+          </span>
+  </a>
+      </p>
+</div> 
+
+
+      <div class="d2c-reasons-popup popup">
+      <p>This add-on is not compatible with your version of Firefox because of the following:</p>
+      <ul></ul>
+    </div>
+  <p>
+    <a id="downloadAnyway" hidden="true">Download Anyway</a>
+</p>
+</div> 
+    <span class="addon-summary">
+      Simulate the use of a series of proxy changing at each new connection.
+    </span>
+    <div class="byline">
+      by <a href="/en-US/firefox/user/hg9x/" title="hg9x">hg9x</a>    </div>
+          <div class="vitals">
+          <div class="vital">
+                  <span class="adu">
+                    64,568 users        </span>
+            </div>
+
+      </div>
+      </div>
+</div>
+    </li>
+      <li>
+      <div class="addon hovercard">
+    <div class="icon">
+      <a href="/en-US/firefox/addon/turbo-download-manager/?src=hp-dl-featured">
+            <img src="https://addons.cdn.mozilla.net/user-media/addon_icons/658/658842-32.png?modified=1488270020" alt="Icon for Turbo Download Manager">
+            </a>
+    </div>
+    <div class="summary">
+      <a href="/en-US/firefox/addon/turbo-download-manager/?src=hp-dl-featured">
+        <h3>Turbo Download Manager</h3>
+                              <div class="category more-info">Download Management</div>
+                        </a>
+        <div class="vital">
+            
+<span class="rating">
+              <span class="stars stars-4" title="Rated 4 out of 5 stars">Rated 4 out of 5 stars</span>
+
+      <a href="/en-US/firefox/addon/turbo-download-manager/reviews/">(33)</a>
+      </span>
+      </div>
+
+          </div>
+  <div class="more">
+    
+<div class="install-shell">
+<div class="install featuredaddon"
+       data-addon="658842"
+  data-icon="https://addons.cdn.mozilla.net/user-media/addon_icons/658/658842-32.png?modified=1488270020"
+  data-developers="/en-US/firefox/addon/turbo-download-manager/developers"
+  data-versions="/en-US/firefox/addon/658842/versions/"
+  data-name="Turbo Download Manager"
+  
+  data-min="29.0"
+  data-max="*"
+  data-is-compatible="true"
+  data-is-compatible-app="true"
+  data-compat-overrides="[]"
+>
+  <p class="install-button">
+                            <a class="button  download "
+  data-hash="sha256:021c935045869c03b4256dc1f5a730721e027674c265543b4cf4cfeb913bd6bd"
+      href="/firefox/downloads/latest/turbo-download-manager/addon-658842-latest.xpi?src=hp-hc-featured"
+  >
+      <b></b>
+    <span>
+      Download Now
+          </span>
+  </a>
+      </p>
+</div> 
+
+
+      <div class="d2c-reasons-popup popup">
+      <p>This add-on is not compatible with your version of Firefox because of the following:</p>
+      <ul></ul>
+    </div>
+  <p>
+    <a id="downloadAnyway" hidden="true">Download Anyway</a>
+</p>
+</div> 
+    <span class="addon-summary">
+      a download manager with multi-threading support
+    </span>
+    <div class="byline">
+      by <a href="/en-US/firefox/user/inbasic/" title="InBasic">InBasic</a>    </div>
+          <div class="vitals">
+          <div class="vital">
+                  <span class="adu">
+                    36,275 users        </span>
+            </div>
+
+      </div>
+      </div>
+</div>
+    </li>
+    </section>
+</ul>
+        </div>
+                    <div id="upandcoming" class="island">
+          <h2>Up &amp; Coming Extensions
+            <a class="seeall" href="/en-US/firefox/extensions/?sort=hotness">See all »</a>
+          </h2>
+          <ul class="listing-grid c cols-2">
+    <section>
+      <li>
+      <div class="addon hovercard">
+    <div class="icon">
+      <a href="/en-US/firefox/addon/adblock-plus-youtube/?src=hp-dl-upandcoming">
+            <img src="https://addons.cdn.mozilla.net/user-media/addon_icons/794/794207-32.png?modified=1490631622" alt="Icon for Adblock Plus for YouTube™">
+            </a>
+    </div>
+    <div class="summary">
+      <a href="/en-US/firefox/addon/adblock-plus-youtube/?src=hp-dl-upandcoming">
+        <h3>Adblock Plus for YouTube™</h3>
+                              <div class="category more-info">Photos, Music &amp; Videos</div>
+                        </a>
+        <div class="vital">
+            
+<span class="rating">
+              <span class="stars stars-4" title="Rated 4 out of 5 stars">Rated 4 out of 5 stars</span>
+
+      <a href="/en-US/firefox/addon/adblock-plus-youtube/reviews/">(21)</a>
+      </span>
+      </div>
+
+          </div>
+  <div class="more">
+    
+<div class="install-shell">
+<div class="install "
+       data-addon="794207"
+  data-icon="https://addons.cdn.mozilla.net/user-media/addon_icons/794/794207-32.png?modified=1490631622"
+  data-developers="/en-US/firefox/addon/adblock-plus-youtube/developers"
+  data-versions="/en-US/firefox/addon/794207/versions/"
+  data-name="Adblock Plus for YouTube™"
+  
+  data-min="48.0"
+  data-max="*"
+  data-is-compatible="true"
+  data-is-compatible-app="true"
+  data-compat-overrides="[]"
+>
+  <p class="install-button">
+                            <a class="button  download "
+  data-hash="sha256:f025e29c4035561849899b973d322c3df2eb678dd64bc07c1497fa239ebc64c6"
+      href="/firefox/downloads/latest/adblock-plus-youtube/addon-794207-latest.xpi?src=hp-hc-upandcoming"
+  >
+      <b></b>
+    <span>
+      Download Now
+          </span>
+  </a>
+      </p>
+</div> 
+
+
+      <div class="d2c-reasons-popup popup">
+      <p>This add-on is not compatible with your version of Firefox because of the following:</p>
+      <ul></ul>
+    </div>
+  <p>
+    <a id="downloadAnyway" hidden="true">Download Anyway</a>
+</p>
+</div> 
+    <span class="addon-summary">
+      Free adblock that blocks all annoying ads from YouTube. Completely redesigned to enjoy YouTube without ads and at maximum speed.
+    </span>
+    <div class="byline">
+      by <a href="/en-US/firefox/user/thivangthithanh/" title="Adblock Plus for YouTube">Adblock Plus for YouTube</a>    </div>
+          <div class="vitals">
+          <div class="vital">
+                  <span class="adu">
+                    10,247 users        </span>
+            </div>
+
+      </div>
+      </div>
+</div>
+    </li>
+      <li>
+      <div class="addon hovercard">
+    <div class="icon">
+      <a href="/en-US/firefox/addon/time-restart/?src=hp-dl-upandcoming">
+            <img src="https://addons.cdn.mozilla.net/user-media/addon_icons/412/412374-32.png?modified=1469050850" alt="Icon for Time Restart">
+            </a>
+    </div>
+    <div class="summary">
+      <a href="/en-US/firefox/addon/time-restart/?src=hp-dl-upandcoming">
+        <h3>Time Restart</h3>
+                              <div class="category more-info">Appearance</div>
+                        </a>
+        <div class="vital">
+            
+<span class="rating">
+              <span class="stars stars-4" title="Rated 4 out of 5 stars">Rated 4 out of 5 stars</span>
+
+      <a href="/en-US/firefox/addon/time-restart/reviews/">(19)</a>
+      </span>
+      </div>
+
+          </div>
+  <div class="more">
+    
+<div class="install-shell">
+<div class="install "
+       data-addon="412374"
+  data-icon="https://addons.cdn.mozilla.net/user-media/addon_icons/412/412374-32.png?modified=1469050850"
+  data-developers="/en-US/firefox/addon/time-restart/developers"
+  data-versions="/en-US/firefox/addon/412374/versions/"
+  data-name="Time Restart"
+  
+  data-min="3.6"
+  data-max="16.*"
+  data-is-compatible="true"
+  data-is-compatible-app="true"
+  data-compat-overrides="[]"
+>
+  <p class="install-button">
+                            <a class="button  download platform windows"
+  data-hash="sha256:3e5970ffaeaf6de496dd7a0bdc1a38b01765b3221b236fe0f4b3678eab330b83"
+      href="/firefox/downloads/latest/time-restart/platform:5/addon-412374-latest.xpi?src=hp-hc-upandcoming"
+  >
+      <b></b>
+    <span>
+      Download
+              <span class="os" data-os="Windows">
+                                  for Windows
+                  </span>
+          </span>
+  </a>
+      </p>
+</div> 
+
+
+      <div class="d2c-reasons-popup popup">
+      <p>This add-on is not compatible with your version of Firefox because of the following:</p>
+      <ul></ul>
+    </div>
+  <p>
+    <a id="downloadAnyway" hidden="true">Download Anyway</a>
+</p>
+</div> 
+    <span class="addon-summary">
+      Allows you to specify the time to restart browser.
+    </span>
+    <div class="byline">
+      by <a href="/en-US/firefox/user/Thorastur/" title="Nacho Vázquez">Nacho Vázquez</a>    </div>
+          <div class="vitals">
+          <div class="vital">
+                  <span class="adu">
+                    48,363 users        </span>
+            </div>
+
+      </div>
+      </div>
+</div>
+    </li>
+      <li>
+      <div class="addon hovercard">
+    <div class="icon">
+      <a href="/en-US/firefox/addon/nemid-n%C3%B8glefilsprogram/?src=hp-dl-upandcoming">
+            <img src="https://addons.cdn.mozilla.net/user-media/addon_icons/767/767341-32.png?modified=1489710023" alt="Icon for NemID Nøglefilsprogram">
+            </a>
+    </div>
+    <div class="summary">
+      <a href="/en-US/firefox/addon/nemid-n%C3%B8glefilsprogram/?src=hp-dl-upandcoming">
+        <h3>NemID Nøglefilsprogram</h3>
+                              <div class="category more-info">Privacy &amp; Security</div>
+                        </a>
+        <div class="vital">
+            
+<span class="rating">
+              <span class="stars stars-3" title="Rated 3 out of 5 stars">Rated 3 out of 5 stars</span>
+
+      <a href="/en-US/firefox/addon/nemid-n%C3%B8glefilsprogram/reviews/">(2)</a>
+      </span>
+      </div>
+
+          </div>
+  <div class="more">
+    
+<div class="install-shell">
+<div class="install "
+       data-addon="767341"
+  data-icon="https://addons.cdn.mozilla.net/user-media/addon_icons/767/767341-32.png?modified=1489710023"
+  data-developers="/en-US/firefox/addon/nemid-n%C3%B8glefilsprogram/developers"
+  data-versions="/en-US/firefox/addon/767341/versions/"
+  data-name="NemID Nøglefilsprogram"
+  
+  data-min="50.0"
+  data-max="*"
+  data-is-compatible="true"
+  data-is-compatible-app="true"
+  data-compat-overrides="[]"
+>
+  <p class="install-button">
+                            <a class="button  download platform linux"
+  data-hash="sha256:95a3bda93aa700de0ade39d55820bb067a4c14170c4f0a69a6cc3cad9ae98eb3"
+      href="/firefox/downloads/latest/nemid-n%C3%B8glefilsprogram/platform:2/addon-767341-latest.xpi?src=hp-hc-upandcoming"
+  >
+      <b></b>
+    <span>
+      Download
+              <span class="os" data-os="Linux">
+                                  for Linux
+                  </span>
+          </span>
+  </a>
+                <a class="button  download platform mac"
+  data-hash="sha256:a0d9e44f34a9bc48a7dd483d0ed782e11dbd00aae0b5bc0bb5a06bef5fad3b47"
+      href="/firefox/downloads/latest/nemid-n%C3%B8glefilsprogram/platform:3/addon-767341-latest.xpi?src=hp-hc-upandcoming"
+  >
+      <b></b>
+    <span>
+      Download
+              <span class="os" data-os="Mac OS X">
+                                  for Mac OS X
+                  </span>
+          </span>
+  </a>
+                <a class="button  download platform windows"
+  data-hash="sha256:6f6e11eebac0b849ff3fefc2e505895bbe584743d99dcb78cf9915730f5cfb01"
+      href="/firefox/downloads/latest/nemid-n%C3%B8glefilsprogram/platform:5/addon-767341-latest.xpi?src=hp-hc-upandcoming"
+  >
+      <b></b>
+    <span>
+      Download
+              <span class="os" data-os="Windows">
+                                  for Windows
+                  </span>
+          </span>
+  </a>
+      </p>
+</div> 
+
+
+      <div class="d2c-reasons-popup popup">
+      <p>This add-on is not compatible with your version of Firefox because of the following:</p>
+      <ul></ul>
+    </div>
+  <p>
+    <a id="downloadAnyway" hidden="true">Download Anyway</a>
+</p>
+</div> 
+    <span class="addon-summary">
+      NemID Nøglefilsprogram er nødvendigt for at bruge NemID nøglefil eller NemID på hardware.
+    </span>
+    <div class="byline">
+      by <a href="/en-US/firefox/user/tvmadnets/" title="Nets DanID A/S">Nets DanID A/S</a>    </div>
+          <div class="vitals">
+          <div class="vital">
+                  <span class="adu">
+                    7,526 users        </span>
+            </div>
+
+      </div>
+      </div>
+</div>
+    </li>
+      <li>
+      <div class="addon hovercard">
+    <div class="icon">
+      <a href="/en-US/firefox/addon/cisco-webex-extension/?src=hp-dl-upandcoming">
+            <img src="https://addons.cdn.mozilla.net/user-media/addon_icons/735/735601-32.png?modified=1485811222" alt="Icon for Cisco WebEx Extension">
+            </a>
+    </div>
+    <div class="summary">
+      <a href="/en-US/firefox/addon/cisco-webex-extension/?src=hp-dl-upandcoming">
+        <h3>Cisco WebEx Extension</h3>
+                              <div class="category more-info">Other</div>
+                        </a>
+        <div class="vital">
+            
+<span class="rating">
+              <span class="stars stars-3" title="Rated 3 out of 5 stars">Rated 3 out of 5 stars</span>
+
+      <a href="/en-US/firefox/addon/cisco-webex-extension/reviews/">(28)</a>
+      </span>
+      </div>
+
+          </div>
+  <div class="more">
+    
+<div class="install-shell">
+<div class="install "
+       data-addon="735601"
+  data-icon="https://addons.cdn.mozilla.net/user-media/addon_icons/735/735601-32.png?modified=1485811222"
+  data-developers="/en-US/firefox/addon/cisco-webex-extension/developers"
+  data-versions="/en-US/firefox/addon/735601/versions/"
+  data-name="Cisco WebEx Extension"
+  
+  data-min="50.0"
+  data-max="*"
+  data-is-compatible="true"
+  data-is-compatible-app="true"
+  data-compat-overrides="[]"
+>
+  <p class="install-button">
+                            <a class="button  download platform linux"
+  data-hash="sha256:1c8ac66c219c1e34d0d4fea11eb8ddda56fa37034acde9fe033786bb9d1840b4"
+      href="/firefox/downloads/latest/cisco-webex-extension/platform:2/addon-735601-latest.xpi?src=hp-hc-upandcoming"
+  >
+      <b></b>
+    <span>
+      Download
+              <span class="os" data-os="Linux">
+                                  for Linux
+                  </span>
+          </span>
+  </a>
+                <a class="button  download platform mac"
+  data-hash="sha256:53975261659d8d2acaf8932119369a094def888dace0e31c2479b2a2174028bf"
+      href="/firefox/downloads/latest/cisco-webex-extension/platform:3/addon-735601-latest.xpi?src=hp-hc-upandcoming"
+  >
+      <b></b>
+    <span>
+      Download
+              <span class="os" data-os="Mac OS X">
+                                  for Mac OS X
+                  </span>
+          </span>
+  </a>
+                <a class="button  download platform windows"
+  data-hash="sha256:2e02fde80c4a178345742a8ad9e40e25ce068e22fe75beb6f6f9a7ba537cccdc"
+      href="/firefox/downloads/latest/cisco-webex-extension/platform:5/addon-735601-latest.xpi?src=hp-hc-upandcoming"
+  >
+      <b></b>
+    <span>
+      Download
+              <span class="os" data-os="Windows">
+                                  for Windows
+                  </span>
+          </span>
+  </a>
+      </p>
+</div> 
+
+
+      <div class="d2c-reasons-popup popup">
+      <p>This add-on is not compatible with your version of Firefox because of the following:</p>
+      <ul></ul>
+    </div>
+  <p>
+    <a id="downloadAnyway" hidden="true">Download Anyway</a>
+</p>
+</div> 
+    <span class="addon-summary">
+      Join WebEx meetings using Firefox ™
+    </span>
+    <div class="byline">
+      by <a href="/en-US/firefox/user/Cisco_WebEx/" title="Cisco WebEx">Cisco WebEx</a>    </div>
+          <div class="vitals">
+          <div class="vital">
+                  <span class="adu">
+                    216,950 users        </span>
+            </div>
+
+      </div>
+      </div>
+</div>
+    </li>
+      <li>
+      <div class="addon hovercard">
+    <div class="icon">
+      <a href="/en-US/firefox/addon/swap-proxy/?src=hp-dl-upandcoming">
+            <img src="https://addons.cdn.mozilla.net/user-media/addon_icons/322/322581-32.png?modified=1353309570" alt="Icon for Swap Proxy">
+            </a>
+    </div>
+    <div class="summary">
+      <a href="/en-US/firefox/addon/swap-proxy/?src=hp-dl-upandcoming">
+        <h3>Swap Proxy</h3>
+                              <div class="category more-info">Privacy &amp; Security</div>
+                        </a>
+        <div class="vital">
+            
+<span class="rating">
+              <span class="stars stars-4" title="Rated 4 out of 5 stars">Rated 4 out of 5 stars</span>
+
+      <a href="/en-US/firefox/addon/swap-proxy/reviews/">(9)</a>
+      </span>
+      </div>
+
+          </div>
+  <div class="more">
+    
+<div class="install-shell">
+<div class="install "
+       data-addon="322581"
+  data-icon="https://addons.cdn.mozilla.net/user-media/addon_icons/322/322581-32.png?modified=1353309570"
+  data-developers="/en-US/firefox/addon/swap-proxy/developers"
+  data-versions="/en-US/firefox/addon/322581/versions/"
+  data-name="Swap Proxy"
+  
+  data-min="3.0"
+  data-max="53.*"
+  data-is-compatible="true"
+  data-is-compatible-app="true"
+  data-compat-overrides="[]"
+>
+  <p class="install-button">
+                            <a class="button  download "
+  data-hash="sha256:1e33661234eedfc285a98219af4f6f4a051247ba3b34479b1be7992b4edcfa04"
+      href="/firefox/downloads/latest/swap-proxy/addon-322581-latest.xpi?src=hp-hc-upandcoming"
+  >
+      <b></b>
+    <span>
+      Download Now
+          </span>
+  </a>
+      </p>
+</div> 
+
+
+      <div class="d2c-reasons-popup popup">
+      <p>This add-on is not compatible with your version of Firefox because of the following:</p>
+      <ul></ul>
+    </div>
+  <p>
+    <a id="downloadAnyway" hidden="true">Download Anyway</a>
+</p>
+</div> 
+    <span class="addon-summary">
+      Swap Your Proxy Setting instantly just by a click.
+    </span>
+    <div class="byline">
+      by <a href="/en-US/firefox/user/mahendra007/" title="mahendra">mahendra</a>    </div>
+          <div class="vitals">
+          <div class="vital">
+                  <span class="adu">
+                    35,378 users        </span>
+            </div>
+
+      </div>
+      </div>
+</div>
+    </li>
+      <li>
+      <div class="addon hovercard">
+    <div class="icon">
+      <a href="/en-US/firefox/addon/buy-proxies/?src=hp-dl-upandcoming">
+            <img src="https://addons.cdn.mozilla.net/static/img/addon-icons/default-32.png" alt="Icon for BP Proxy Manager">
+            </a>
+    </div>
+    <div class="summary">
+      <a href="/en-US/firefox/addon/buy-proxies/?src=hp-dl-upandcoming">
+        <h3>BP Proxy Manager</h3>
+                              <div class="category more-info">Privacy &amp; Security</div>
+                        </a>
+        <div class="vital">
+            
+<span class="rating">
+              <span class="stars stars-3" title="Rated 3 out of 5 stars">Rated 3 out of 5 stars</span>
+
+      <a href="/en-US/firefox/addon/buy-proxies/reviews/">(2)</a>
+      </span>
+      </div>
+
+          </div>
+  <div class="more">
+    
+<div class="install-shell">
+<div class="install lite"
+       data-addon="419118"
+  data-icon="https://addons.cdn.mozilla.net/static/img/addon-icons/default-32.png"
+  data-developers="/en-US/firefox/addon/buy-proxies/developers"
+  data-versions="/en-US/firefox/addon/419118/versions/"
+  data-name="BP Proxy Manager"
+  
+  data-min="13.0"
+  data-max="20.*"
+  data-is-compatible="true"
+  data-is-compatible-app="true"
+  data-compat-overrides="[]"
+>
+  <p class="install-button">
+                            <a class="button  caution "
+  data-hash="sha256:0cdfae475720390fd517db87c408e451dd7ed1ead24f08c48d5f064843906397"
+      href="/firefox/downloads/latest/buy-proxies/addon-419118-latest.xpi?src=hp-hc-upandcoming"
+  >
+      <b></b>
+    <span>
+      Download Now
+          </span>
+  </a>
+      </p>
+</div> 
+
+
+      <div class="d2c-reasons-popup popup">
+      <p>This add-on is not compatible with your version of Firefox because of the following:</p>
+      <ul></ul>
+    </div>
+  <p>
+    <a id="downloadAnyway" hidden="true">Download Anyway</a>
+</p>
+</div> 
+    <span class="addon-summary">
+      Change your proxies with a single click. Automatically clears the cache and the cookies before changing the proxy.
+    </span>
+    <div class="byline">
+      by <a href="/en-US/firefox/user/buyproxies/" title="buyproxies">buyproxies</a>    </div>
+          <div class="vitals">
+          <div class="vital">
+                  <span class="adu">
+                    52,130 users        </span>
+            </div>
+
+      </div>
+      </div>
+</div>
+    </li>
+    </section>
+</ul>
+        </div>
+                    <div id="featured-themes" class="island">
+          <h2>Featured Themes
+            <a class="seeall" href="/en-US/firefox/themes/">See all »</a>
+          </h2>
+          <ul class="listing-grid personas cols-3 c">
+    <section>
+          <li>
+          <div class="persona hovercard">
+    <a href="/en-US/firefox/addon/honeymooners/" data-browsertheme="{&#34;category&#34;:&#34;Scenery&#34;,&#34;iconURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/59399/preview_small.jpg?1263467126&#34;,&#34;headerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/59399/justmarried.jpg?1263467126&#34;,&#34;name&#34;:&#34;Honeymooners&#34;,&#34;author&#34;:&#34;amberlo&#34;,&#34;footer&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/59399/justmarried-Copy.jpg?1263467126&#34;,&#34;previewURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/59399/preview_large.jpg?1263467126&#34;,&#34;updateURL&#34;:&#34;https://versioncheck.addons.mozilla.org/en-US/themes/update-check/59399&#34;,&#34;accentcolor&#34;:&#34;#e3f02b&#34;,&#34;header&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/59399/justmarried.jpg?1263467126&#34;,&#34;version&#34;:&#34;1.0&#34;,&#34;footerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/59399/justmarried-Copy.jpg?1263467126&#34;,&#34;detailURL&#34;:&#34;https://addons.mozilla.org/en-US/firefox/addon/honeymooners/&#34;,&#34;textcolor&#34;:&#34;#ede353&#34;,&#34;id&#34;:&#34;59399&#34;,&#34;description&#34;:&#34;&#34;}" class="persona-info">
+      <div class="persona-preview">
+        <img src="https://addons.cdn.mozilla.net/user-media/addons/59399/preview.jpg?1263467126"
+             data-browsertheme="{&#34;category&#34;:&#34;Scenery&#34;,&#34;iconURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/59399/preview_small.jpg?1263467126&#34;,&#34;headerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/59399/justmarried.jpg?1263467126&#34;,&#34;name&#34;:&#34;Honeymooners&#34;,&#34;author&#34;:&#34;amberlo&#34;,&#34;footer&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/59399/justmarried-Copy.jpg?1263467126&#34;,&#34;previewURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/59399/preview_large.jpg?1263467126&#34;,&#34;updateURL&#34;:&#34;https://versioncheck.addons.mozilla.org/en-US/themes/update-check/59399&#34;,&#34;accentcolor&#34;:&#34;#e3f02b&#34;,&#34;header&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/59399/justmarried.jpg?1263467126&#34;,&#34;version&#34;:&#34;1.0&#34;,&#34;footerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/59399/justmarried-Copy.jpg?1263467126&#34;,&#34;detailURL&#34;:&#34;https://addons.mozilla.org/en-US/firefox/addon/honeymooners/&#34;,&#34;textcolor&#34;:&#34;#ede353&#34;,&#34;id&#34;:&#34;59399&#34;,&#34;description&#34;:&#34;&#34;}" alt="">
+      </div>
+      <h3>Honeymooners</h3>
+    </a>
+    <h4>
+      <div class="author-names">
+        by
+        <a href="/en-US/firefox/user/amberlo/" title="Amberlo">Amberlo</a>
+      </div>
+    </h4>
+    <h4>
+      30 Daily Users
+    </h4>
+
+          <div class="persona-install">
+        <button class="add">
+          <span>Add</span>
+        </button>
+      </div>
+      </div>
+
+      </li>
+          <li>
+          <div class="persona hovercard">
+    <a href="/en-US/firefox/addon/neon-butterflies-flowers-rings/" data-browsertheme="{&#34;category&#34;:&#34;Other&#34;,&#34;iconURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/491006/icon.png?1393845627&#34;,&#34;headerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/491006/header.png?1393845627&#34;,&#34;name&#34;:&#34;Neon butterflies, flowers, rings&#34;,&#34;author&#34;:&#34;penelopa&#34;,&#34;footer&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/491006/footer.png?1393845627&#34;,&#34;previewURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/491006/preview.png?1393845627&#34;,&#34;updateURL&#34;:&#34;https://versioncheck.addons.mozilla.org/en-US/themes/update-check/491006&#34;,&#34;accentcolor&#34;:&#34;#000000&#34;,&#34;header&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/491006/header.png?1393845627&#34;,&#34;version&#34;:&#34;1.0&#34;,&#34;footerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/491006/footer.png?1393845627&#34;,&#34;detailURL&#34;:&#34;https://addons.mozilla.org/en-US/firefox/addon/neon-butterflies-flowers-rings/&#34;,&#34;textcolor&#34;:&#34;#55c0eb&#34;,&#34;id&#34;:&#34;491006&#34;,&#34;description&#34;:&#34;&#34;}" class="persona-info">
+      <div class="persona-preview">
+        <img src="https://addons.cdn.mozilla.net/user-media/addons/491006/preview.png?1393845627"
+             data-browsertheme="{&#34;category&#34;:&#34;Other&#34;,&#34;iconURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/491006/icon.png?1393845627&#34;,&#34;headerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/491006/header.png?1393845627&#34;,&#34;name&#34;:&#34;Neon butterflies, flowers, rings&#34;,&#34;author&#34;:&#34;penelopa&#34;,&#34;footer&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/491006/footer.png?1393845627&#34;,&#34;previewURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/491006/preview.png?1393845627&#34;,&#34;updateURL&#34;:&#34;https://versioncheck.addons.mozilla.org/en-US/themes/update-check/491006&#34;,&#34;accentcolor&#34;:&#34;#000000&#34;,&#34;header&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/491006/header.png?1393845627&#34;,&#34;version&#34;:&#34;1.0&#34;,&#34;footerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/491006/footer.png?1393845627&#34;,&#34;detailURL&#34;:&#34;https://addons.mozilla.org/en-US/firefox/addon/neon-butterflies-flowers-rings/&#34;,&#34;textcolor&#34;:&#34;#55c0eb&#34;,&#34;id&#34;:&#34;491006&#34;,&#34;description&#34;:&#34;&#34;}" alt="">
+      </div>
+      <h3>Neon butterflies, flowers, rings</h3>
+    </a>
+    <h4>
+      <div class="author-names">
+        by
+        <a href="/en-US/firefox/user/mcangel/" title="penelopa">penelopa</a>
+      </div>
+    </h4>
+    <h4>
+      182 Daily Users
+    </h4>
+
+          <div class="persona-install">
+        <button class="add">
+          <span>Add</span>
+        </button>
+      </div>
+      </div>
+
+      </li>
+          <li>
+          <div class="persona hovercard">
+    <a href="/en-US/firefox/addon/fractal-alien-october/" data-browsertheme="{&#34;category&#34;:&#34;Abstract&#34;,&#34;iconURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/53755/preview_small.jpg?1490387431&#34;,&#34;headerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/53755/fractalalienoctoberalto.jpg?1490387431&#34;,&#34;name&#34;:&#34;fractal alien october&#34;,&#34;author&#34;:&#34;candelora&#34;,&#34;footer&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/53755/fractalalienoctoberbasso.jpg?1490387431&#34;,&#34;previewURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/53755/preview_large.jpg?1490387431&#34;,&#34;updateURL&#34;:&#34;https://versioncheck.addons.mozilla.org/en-US/themes/update-check/53755&#34;,&#34;accentcolor&#34;:&#34;#403103&#34;,&#34;header&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/53755/fractalalienoctoberalto.jpg?1490387431&#34;,&#34;version&#34;:&#34;1.0&#34;,&#34;footerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/53755/fractalalienoctoberbasso.jpg?1490387431&#34;,&#34;detailURL&#34;:&#34;https://addons.mozilla.org/en-US/firefox/addon/fractal-alien-october/&#34;,&#34;textcolor&#34;:&#34;#ffffcc&#34;,&#34;id&#34;:&#34;53755&#34;,&#34;description&#34;:&#34;\u273fTheme Designed by &lt;b&gt;candelora \u00a9&lt;/b&gt;\u273f\n\nCopyright Original Picture by &lt;b&gt;&lt;a rel=\&#34;nofollow\&#34; href=\&#34;https://outgoing.prod.mozaws.net/v1/c513cc0187842525650a201208a0d48e017b84f0451f89a92cadc3095d8d30db/http%3A//kattvinge.deviantart.com/art/Alien-October-8-101010069\&#34;&gt;Kattvinge&lt;/a&gt;&lt;/b&gt;\n\nTAGS:\nflowers,nature,bloom,green,yellow,orange,hazel,white,light,\ncolorful,bright,sunshine,spring,summer,fantasy,candelora,\nmagic,firefox&#34;}" class="persona-info">
+      <div class="persona-preview">
+        <img src="https://addons.cdn.mozilla.net/user-media/addons/53755/preview.jpg?1490387431"
+             data-browsertheme="{&#34;category&#34;:&#34;Abstract&#34;,&#34;iconURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/53755/preview_small.jpg?1490387431&#34;,&#34;headerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/53755/fractalalienoctoberalto.jpg?1490387431&#34;,&#34;name&#34;:&#34;fractal alien october&#34;,&#34;author&#34;:&#34;candelora&#34;,&#34;footer&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/53755/fractalalienoctoberbasso.jpg?1490387431&#34;,&#34;previewURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/53755/preview_large.jpg?1490387431&#34;,&#34;updateURL&#34;:&#34;https://versioncheck.addons.mozilla.org/en-US/themes/update-check/53755&#34;,&#34;accentcolor&#34;:&#34;#403103&#34;,&#34;header&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/53755/fractalalienoctoberalto.jpg?1490387431&#34;,&#34;version&#34;:&#34;1.0&#34;,&#34;footerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/53755/fractalalienoctoberbasso.jpg?1490387431&#34;,&#34;detailURL&#34;:&#34;https://addons.mozilla.org/en-US/firefox/addon/fractal-alien-october/&#34;,&#34;textcolor&#34;:&#34;#ffffcc&#34;,&#34;id&#34;:&#34;53755&#34;,&#34;description&#34;:&#34;\u273fTheme Designed by &lt;b&gt;candelora \u00a9&lt;/b&gt;\u273f\n\nCopyright Original Picture by &lt;b&gt;&lt;a rel=\&#34;nofollow\&#34; href=\&#34;https://outgoing.prod.mozaws.net/v1/c513cc0187842525650a201208a0d48e017b84f0451f89a92cadc3095d8d30db/http%3A//kattvinge.deviantart.com/art/Alien-October-8-101010069\&#34;&gt;Kattvinge&lt;/a&gt;&lt;/b&gt;\n\nTAGS:\nflowers,nature,bloom,green,yellow,orange,hazel,white,light,\ncolorful,bright,sunshine,spring,summer,fantasy,candelora,\nmagic,firefox&#34;}" alt="">
+      </div>
+      <h3>fractal alien october</h3>
+    </a>
+    <h4>
+      <div class="author-names">
+        by
+        <a href="/en-US/firefox/user/candelora/" title="candelora">candelora</a>
+      </div>
+    </h4>
+    <h4>
+      436 Daily Users
+    </h4>
+
+          <div class="persona-install">
+        <button class="add">
+          <span>Add</span>
+        </button>
+      </div>
+      </div>
+
+      </li>
+          <li>
+          <div class="persona hovercard">
+    <a href="/en-US/firefox/addon/dark-pastel-rainbow-leaves/" data-browsertheme="{&#34;category&#34;:&#34;Abstract&#34;,&#34;iconURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/735524/icon.png?1474514416&#34;,&#34;headerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/735524/header.png?1474514416&#34;,&#34;name&#34;:&#34;Dark Pastel Rainbow Leaves&#34;,&#34;author&#34;:&#34;StoryMaker-the-Christian-Echidna&#34;,&#34;footer&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/735524/footer.png?1474514416&#34;,&#34;previewURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/735524/preview.png?1474514416&#34;,&#34;updateURL&#34;:&#34;https://versioncheck.addons.mozilla.org/en-US/themes/update-check/735524&#34;,&#34;accentcolor&#34;:&#34;#000000&#34;,&#34;header&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/735524/header.png?1474514416&#34;,&#34;version&#34;:&#34;1.0&#34;,&#34;footerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/735524/footer.png?1474514416&#34;,&#34;detailURL&#34;:&#34;https://addons.mozilla.org/en-US/firefox/addon/dark-pastel-rainbow-leaves/&#34;,&#34;textcolor&#34;:&#34;#ffffff&#34;,&#34;id&#34;:&#34;735524&#34;,&#34;description&#34;:&#34;Leaves, leaves, leaves!&#34;}" class="persona-info">
+      <div class="persona-preview">
+        <img src="https://addons.cdn.mozilla.net/user-media/addons/735524/preview.png?1474514416"
+             data-browsertheme="{&#34;category&#34;:&#34;Abstract&#34;,&#34;iconURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/735524/icon.png?1474514416&#34;,&#34;headerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/735524/header.png?1474514416&#34;,&#34;name&#34;:&#34;Dark Pastel Rainbow Leaves&#34;,&#34;author&#34;:&#34;StoryMaker-the-Christian-Echidna&#34;,&#34;footer&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/735524/footer.png?1474514416&#34;,&#34;previewURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/735524/preview.png?1474514416&#34;,&#34;updateURL&#34;:&#34;https://versioncheck.addons.mozilla.org/en-US/themes/update-check/735524&#34;,&#34;accentcolor&#34;:&#34;#000000&#34;,&#34;header&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/735524/header.png?1474514416&#34;,&#34;version&#34;:&#34;1.0&#34;,&#34;footerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/735524/footer.png?1474514416&#34;,&#34;detailURL&#34;:&#34;https://addons.mozilla.org/en-US/firefox/addon/dark-pastel-rainbow-leaves/&#34;,&#34;textcolor&#34;:&#34;#ffffff&#34;,&#34;id&#34;:&#34;735524&#34;,&#34;description&#34;:&#34;Leaves, leaves, leaves!&#34;}" alt="">
+      </div>
+      <h3>Dark Pastel Rainbow Leaves</h3>
+    </a>
+    <h4>
+      <div class="author-names">
+        by
+        <a href="/en-US/firefox/user/StoryMaker-the-Christian-Echidna/" title="StoryMaker-the-Christian-Echidna">StoryMaker-the-Christian-Echidna</a>
+      </div>
+    </h4>
+    <h4>
+      324 Daily Users
+    </h4>
+
+          <div class="persona-install">
+        <button class="add">
+          <span>Add</span>
+        </button>
+      </div>
+      </div>
+
+      </li>
+          <li>
+          <div class="persona hovercard">
+    <a href="/en-US/firefox/addon/vista-sea-theme/" data-browsertheme="{&#34;category&#34;:&#34;Nature&#34;,&#34;iconURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/69255/preview_small.jpg?1264861722&#34;,&#34;headerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/69255/seawidedarkinvistastyle.png?1264861722&#34;,&#34;name&#34;:&#34;vista sea theme&#34;,&#34;author&#34;:&#34;\u00d0\u2022\u00d0\u00ba\u00d0\u00b0\u00d1\u201a\u00d0\u00b5\u00d1\u20ac\u00d0\u00b8\u00d0\u00bd\u00d0\u00b0&#34;,&#34;footer&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/69255/seawidedarkinvistastyle2.png?1264861722&#34;,&#34;previewURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/69255/preview_large.jpg?1264861722&#34;,&#34;updateURL&#34;:&#34;https://versioncheck.addons.mozilla.org/en-US/themes/update-check/69255&#34;,&#34;accentcolor&#34;:&#34;#&#34;,&#34;header&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/69255/seawidedarkinvistastyle.png?1264861722&#34;,&#34;version&#34;:&#34;1.0&#34;,&#34;footerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/69255/seawidedarkinvistastyle2.png?1264861722&#34;,&#34;detailURL&#34;:&#34;https://addons.mozilla.org/en-US/firefox/addon/vista-sea-theme/&#34;,&#34;textcolor&#34;:&#34;#ffffff&#34;,&#34;id&#34;:&#34;69255&#34;,&#34;description&#34;:&#34;One more sea theme in Vista style :)&#34;}" class="persona-info">
+      <div class="persona-preview">
+        <img src="https://addons.cdn.mozilla.net/user-media/addons/69255/preview.jpg?1264861722"
+             data-browsertheme="{&#34;category&#34;:&#34;Nature&#34;,&#34;iconURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/69255/preview_small.jpg?1264861722&#34;,&#34;headerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/69255/seawidedarkinvistastyle.png?1264861722&#34;,&#34;name&#34;:&#34;vista sea theme&#34;,&#34;author&#34;:&#34;\u00d0\u2022\u00d0\u00ba\u00d0\u00b0\u00d1\u201a\u00d0\u00b5\u00d1\u20ac\u00d0\u00b8\u00d0\u00bd\u00d0\u00b0&#34;,&#34;footer&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/69255/seawidedarkinvistastyle2.png?1264861722&#34;,&#34;previewURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/69255/preview_large.jpg?1264861722&#34;,&#34;updateURL&#34;:&#34;https://versioncheck.addons.mozilla.org/en-US/themes/update-check/69255&#34;,&#34;accentcolor&#34;:&#34;#&#34;,&#34;header&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/69255/seawidedarkinvistastyle.png?1264861722&#34;,&#34;version&#34;:&#34;1.0&#34;,&#34;footerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/69255/seawidedarkinvistastyle2.png?1264861722&#34;,&#34;detailURL&#34;:&#34;https://addons.mozilla.org/en-US/firefox/addon/vista-sea-theme/&#34;,&#34;textcolor&#34;:&#34;#ffffff&#34;,&#34;id&#34;:&#34;69255&#34;,&#34;description&#34;:&#34;One more sea theme in Vista style :)&#34;}" alt="">
+      </div>
+      <h3>vista sea theme</h3>
+    </a>
+    <h4>
+      <div class="author-names">
+        by
+        <a href="/en-US/firefox/user/Mindale/" title="Mindale">Mindale</a>
+      </div>
+    </h4>
+    <h4>
+      1 Daily Users
+    </h4>
+
+          <div class="persona-install">
+        <button class="add">
+          <span>Add</span>
+        </button>
+      </div>
+      </div>
+
+      </li>
+          <li>
+          <div class="persona hovercard">
+    <a href="/en-US/firefox/addon/meadow-cat/" data-browsertheme="{&#34;category&#34;:&#34;Nature&#34;,&#34;iconURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/57244/preview_small.jpg?1262186947&#34;,&#34;headerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/57244/nikkoingrass.jpg?1262186947&#34;,&#34;name&#34;:&#34;Meadow Cat&#34;,&#34;author&#34;:&#34;NikRaye Photography&#34;,&#34;footer&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/57244/nikkoingrass_footer3.jpg?1262186947&#34;,&#34;previewURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/57244/preview_large.jpg?1262186947&#34;,&#34;updateURL&#34;:&#34;https://versioncheck.addons.mozilla.org/en-US/themes/update-check/57244&#34;,&#34;accentcolor&#34;:&#34;#adadad&#34;,&#34;header&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/57244/nikkoingrass.jpg?1262186947&#34;,&#34;version&#34;:&#34;1.0&#34;,&#34;footerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/57244/nikkoingrass_footer3.jpg?1262186947&#34;,&#34;detailURL&#34;:&#34;https://addons.mozilla.org/en-US/firefox/addon/meadow-cat/&#34;,&#34;textcolor&#34;:&#34;#fcf9ce&#34;,&#34;id&#34;:&#34;57244&#34;,&#34;description&#34;:&#34;&#34;}" class="persona-info">
+      <div class="persona-preview">
+        <img src="https://addons.cdn.mozilla.net/user-media/addons/57244/preview.jpg?1262186947"
+             data-browsertheme="{&#34;category&#34;:&#34;Nature&#34;,&#34;iconURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/57244/preview_small.jpg?1262186947&#34;,&#34;headerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/57244/nikkoingrass.jpg?1262186947&#34;,&#34;name&#34;:&#34;Meadow Cat&#34;,&#34;author&#34;:&#34;NikRaye Photography&#34;,&#34;footer&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/57244/nikkoingrass_footer3.jpg?1262186947&#34;,&#34;previewURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/57244/preview_large.jpg?1262186947&#34;,&#34;updateURL&#34;:&#34;https://versioncheck.addons.mozilla.org/en-US/themes/update-check/57244&#34;,&#34;accentcolor&#34;:&#34;#adadad&#34;,&#34;header&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/57244/nikkoingrass.jpg?1262186947&#34;,&#34;version&#34;:&#34;1.0&#34;,&#34;footerURL&#34;:&#34;https://addons.cdn.mozilla.net/user-media/addons/57244/nikkoingrass_footer3.jpg?1262186947&#34;,&#34;detailURL&#34;:&#34;https://addons.mozilla.org/en-US/firefox/addon/meadow-cat/&#34;,&#34;textcolor&#34;:&#34;#fcf9ce&#34;,&#34;id&#34;:&#34;57244&#34;,&#34;description&#34;:&#34;&#34;}" alt="">
+      </div>
+      <h3>Meadow Cat</h3>
+    </a>
+    <h4>
+      <div class="author-names">
+        by
+        <a href="/en-US/firefox/user/nikraye/" title="nikraye">nikraye</a>
+      </div>
+    </h4>
+    <h4>
+      543 Daily Users
+    </h4>
+
+          <div class="persona-install">
+        <button class="add">
+          <span>Add</span>
+        </button>
+      </div>
+      </div>
+
+      </li>
+      </section>
+</ul>
+        </div>
+                    <div id="featured-collections" class="island">
+          <h2>Featured Collections
+            <a class="seeall" href="/en-US/firefox/collections/?sort=featured">See all »</a>
+          </h2>
+          <ul class="listing-grid c cols-2">
+    <section>
+      <li>
+      <div class="hovercard collection addon">
+        <a href="/en-US/firefox/collections/mozilla/webdeveloper/">
+          <div class="icon">
+                          <img src="https://addons.cdn.mozilla.net/user-media/collection_icons/0/2.png?m=1491047425" alt="">
+                      </div>
+          <div class="summary">
+            <h3>Web Developer&#39;s Toolbox</h3>
+            <p class="desc">Speed up the development process by using add-ons to troubleshoot, edit, and debug web projects without ever clicking away from Firefox.</p>
+          </div>
+        </a>
+        <div class="more">
+                    <span>13</span> add-ons          &middot;
+                    <span>17,688</span> followers        </div>
+      </div>
+    </li>
+      <li>
+      <div class="hovercard collection addon">
+        <a href="/en-US/firefox/collections/mozilla/privacy/">
+          <div class="icon">
+                          <img src="https://addons.cdn.mozilla.net/user-media/collection_icons/5367/5367586.png?m=1490951393" alt="">
+                      </div>
+          <div class="summary">
+            <h3>Get smart on privacy</h3>
+            <p class="desc">How do you protect and manage your privacy online? The add-ons in this collection are designed to help give you more control of your personal information.</p>
+          </div>
+        </a>
+        <div class="more">
+                    <span>12</span> add-ons          &middot;
+                    <span>2,970</span> followers        </div>
+      </div>
+    </li>
+      <li>
+      <div class="hovercard collection addon">
+        <a href="/en-US/firefox/collections/mozilla/featured_complete_themes/">
+          <div class="icon">
+                          <img src="https://addons.cdn.mozilla.net/static/img/icons/collection.png" alt="">
+                      </div>
+          <div class="summary">
+            <h3>Complete Themes</h3>
+            <p class="desc">Complete Themes transform the look of your browser with styles for the window frame, address bar, buttons, tabs, and menus. New featured complete themes are picked by a community board every quarter!</p>
+          </div>
+        </a>
+        <div class="more">
+                    <span>3</span> add-ons          &middot;
+                    <span>4,288</span> followers        </div>
+      </div>
+    </li>
+      <li>
+      <div class="hovercard collection addon">
+        <a href="/en-US/firefox/collections/mozilla/games/">
+          <div class="icon">
+                          <img src="https://addons.cdn.mozilla.net/static/img/icons/collection.png" alt="">
+                      </div>
+          <div class="summary">
+            <h3>Games!</h3>
+            <p class="desc">Play games right from your browser, anytime. Puzzles, action, classic video games, even stuff for kids—turn Firefox into your very own arcade!</p>
+          </div>
+        </a>
+        <div class="more">
+                    <span>11</span> add-ons          &middot;
+                    <span>638</span> followers        </div>
+      </div>
+    </li>
+    </section>
+    <section>
+      <li>
+      <div class="hovercard collection addon">
+        <a href="/en-US/firefox/collections/mozilla/must-have-media/">
+          <div class="icon">
+                          <img data-defer-src="https://addons.cdn.mozilla.net/static/img/icons/collection.png"  alt=""
+                   src="https://addons.cdn.mozilla.net/static/img/addon-icons/default-32.png?b=f1b600ed8-58dd6ad3">
+                      </div>
+          <div class="summary">
+            <h3>Must-Have Media</h3>
+            <p class="desc">Take better screenshots, improve your video experience, finally learn how to make a GIF, and other fancy media tools.</p>
+          </div>
+        </a>
+        <div class="more">
+                    <span>8</span> add-ons          &middot;
+                    <span>575</span> followers        </div>
+      </div>
+    </li>
+      <li>
+      <div class="hovercard collection addon">
+        <a href="/en-US/firefox/collections/mozilla/winter-themes/">
+          <div class="icon">
+                          <img data-defer-src="https://addons.cdn.mozilla.net/user-media/collection_icons/5926/5926316.png?m=1487599601"  alt=""
+                   src="https://addons.cdn.mozilla.net/static/img/addon-icons/default-32.png?b=f1b600ed8-58dd6ad3">
+                      </div>
+          <div class="summary">
+            <h3>Winter Themes</h3>
+            <p class="desc">Give your Firefox a winter wardrobe change!</p>
+          </div>
+        </a>
+        <div class="more">
+                    <span>15</span> add-ons          &middot;
+                    <span>118</span> followers        </div>
+      </div>
+    </li>
+    </section>
+</ul>
+
+        </div>
+          </section>
+  </section>
+
+              </div>
+      <div id="tooltip">
+        <span></span>
+      </div>
+      <div id="popup-staging">
+        <div id="add-to-collection" class="popup">
+          <div class="collection-add-login">
+            <p>To create your own collections, you must have a Mozilla Add-ons account.</p>
+            <p class="register-button">
+              <a class="button" href="https://oauth.accounts.firefox.com/v1/authorization?action=signup&amp;scope=profile&amp;state=9fc6efc048a3e7a5c5bfd0d4adfd07812e0b62dc094a63638e8c8b6d67d6d7a1%3AL2VuLVVTL2ZpcmVmb3gv&amp;redirect_url=https%3A%2F%2Faddons.mozilla.org%2Fapi%2Fv3%2Faccounts%2Fauthenticate%2F&amp;client_id=a4907de5fa9d78fc">Create an Add-ons Account</a>
+            </p>
+            <p>
+              or <a href="https://oauth.accounts.firefox.com/v1/authorization?action=signin&amp;scope=profile&amp;state=9fc6efc048a3e7a5c5bfd0d4adfd07812e0b62dc094a63638e8c8b6d67d6d7a1%3AL2VuLVVTL2ZpcmVmb3gv&amp;redirect_url=https%3A%2F%2Faddons.mozilla.org%2Fapi%2Fv3%2Faccounts%2Fauthenticate%2F&amp;client_id=a4907de5fa9d78fc">log in to your current account</a>            </p>
+          </div>
+        </div>
+                      </div>
+    </div>
+          <div id="footer" role="contentinfo">
+        <div class="section">
+                    <img class="footerlogo" src="https://addons.cdn.mozilla.net/static/img/zamboni/footer-logo-med.png?b=f1b600ed8-58dd6ad3" alt="Footer logo">
+                                <div class="links-footer">
+  <ul>
+    <li>get to know <b>add-ons</b></li>
+    <li><a href="/en-US/about">About</a></li>
+    <li><a href="http://blog.mozilla.com/addons">Blog</a></li>
+    <li class="footer-devhub-link"><a href="/en-US/developers/">Developer Hub</a></li>
+    <li><a href="/en-US/faq">FAQ</a></li>
+    <li><a href="https://discourse.mozilla-community.org/c/add-ons">Forum</a></li>
+  </ul>
+</div>
+<div id="footer-content">
+                <form class="languages go" id="lang_form" method="get" action="" data-no-csrf>
+          <label for="language">Other languages</label>
+          <select id="language" name="lang" dir="ltr">
+            <option value="af" >
+                Afrikaans
+              </option><option value="ar" >
+                عربي
+              </option><option value="bg" >
+                Български
+              </option><option value="bn-bd" >
+                বাংলা (বাংলাদেশ)
+              </option><option value="ca" >
+                Català
+              </option><option value="cs" >
+                Čeština
+              </option><option value="da" >
+                Dansk
+              </option><option value="de" >
+                Deutsch
+              </option><option value="dsb" >
+                Dolnoserbšćina
+              </option><option value="el" >
+                Ελληνικά
+              </option><option value="en-gb" >
+                English (British)
+              </option><option value="en-us" selected>
+                English (US)
+              </option><option value="es" >
+                Español
+              </option><option value="eu" >
+                Euskara
+              </option><option value="fa" >
+                فارسی
+              </option><option value="fi" >
+                suomi
+              </option><option value="fr" >
+                Français
+              </option><option value="ga-ie" >
+                Gaeilge
+              </option><option value="he" >
+                עברית
+              </option><option value="hsb" >
+                Hornjoserbsce
+              </option><option value="hu" >
+                magyar
+              </option><option value="id" >
+                Bahasa Indonesia
+              </option><option value="it" >
+                Italiano
+              </option><option value="ja" >
+                日本語
+              </option><option value="ka" >
+                ქართული
+              </option><option value="kab" >
+                Taqbaylit
+              </option><option value="ko" >
+                한국어
+              </option><option value="mk" >
+                Македонски
+              </option><option value="mn" >
+                Монгол
+              </option><option value="nl" >
+                Nederlands
+              </option><option value="nn-no" >
+                Norsk nynorsk
+              </option><option value="pl" >
+                Polski
+              </option><option value="pt-br" >
+                Português (do Brasil)
+              </option><option value="pt-pt" >
+                Português (Europeu)
+              </option><option value="ro" >
+                Română
+              </option><option value="ru" >
+                Русский
+              </option><option value="sk" >
+                slovenčina
+              </option><option value="sl" >
+                Slovenščina
+              </option><option value="sq" >
+                Shqip
+              </option><option value="sv-se" >
+                Svenska
+              </option><option value="uk" >
+                Українська
+              </option><option value="vi" >
+                Tiếng Việt
+              </option><option value="zh-cn" >
+                中文 (简体)
+              </option><option value="zh-tw" >
+                正體中文 (繁體)
+              </option>          </select>
+                    <noscript><button type="submit">Go</button></noscript>
+        </form>
+            <div id="copyright">
+  <p id="footer-links">
+          <a href="https://www.mozilla.org/privacy/websites/">
+        Privacy Policy
+      </a> &nbsp;|&nbsp;
+      <a href="https://www.mozilla.org/about/legal/">
+        Legal Notices
+      </a> &nbsp;|&nbsp;
+      <a href="https://www.mozilla.org/about/legal/fraud-report/">
+        Report Trademark Abuse
+      </a>
+                        &nbsp;|&nbsp;<a class="mobile-link" href="#">View Mobile Site</a>
+                &nbsp;|&nbsp;<a href="https://status.mozilla.org/#addons.mozilla.org_service_history">Site Status </a>
+        &nbsp;|&nbsp;<a href="https://developer.mozilla.org/Add-ons/AMO/Policy/Contact">Report a bug</a>
+            </p>
+  <p>
+    Except where otherwise <a href="https://www.mozilla.org/about/legal/">noted</a>, content on this site is licensed under the <br /> <a href="https://creativecommons.org/licenses/by-sa/3.0/"> Creative Commons Attribution Share-Alike License v3.0 </a> or any later version.  </p>
+</div>    </div>
+                  </div>       </div>                   <script src="https://addons.cdn.mozilla.net/en-US/firefox/jsi18n.js?b=f1b600ed8-58dd6ad3"></script>
+      <script src="https://addons.cdn.mozilla.net/static/js/impala-min.js?build=f1b600ed8-58dd6ad3"></script>
+      <script async defer src="https://addons.cdn.mozilla.net/en-US/firefox/addons/buttons.js?b=f1b600ed8-58dd6ad3"></script>
+              </body>
+</html>}k:y�      X�kX�k=�xu       *    :https://addons.mozilla.org/en-US/firefox/ necko:classified 1 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAQAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAfNMIIHyTCCBrGgAwIBAgIQD2YBPt0CaUnfGaRk56rTEjANBgkqhkiG9w0BAQsFADB1MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMTQwMgYDVQQDEytEaWdpQ2VydCBTSEEyIEV4dGVuZGVkIFZhbGlkYXRpb24gU2VydmVyIENBMB4XDTE1MDczMTAwMDAwMFoXDTE3MDkyMTEyMDAwMFowggEIMR0wGwYDVQQPDBRQcml2YXRlIE9yZ2FuaXphdGlvbjETMBEGCysGAQQBgjc8AgEDEwJVUzEbMBkGCysGAQQBgjc8AgECEwpDYWxpZm9ybmlhMREwDwYDVQQFEwhDMjU0MzQzNjEeMBwGA1UECRMVNjUwIENhc3RybyBTdCBTdGUgMzAwMQ4wDAYDVQQREwU5NDA0MTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxGzAZBgNVBAoTEk1vemlsbGEgRm91bmRhdGlvbjEbMBkGA1UEAxMSYWRkb25zLm1vemlsbGEub3JnMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3jJG6kmDY1p/wbvK6lC/CIggEwsLOXPlOq+uy8sn9NNIZyYQ7M0bEBW+DERxY8O7DTb8thPOxJSURCVufbdCKfwynPeB1LdouA5UKxJluXlRQudBYzjqdsFN4Fp8Xkx69maOo/LpAb/QWxU66iaN0aOW34T6WDTqlwZ16km9+hK6wX4qAa5ubidtcoSE932nN3qrBfp+Wmiazph53J3/z6B1dA2EAo+5YN3IR/ypziNnJdXPfa4x8iEVnGgnfWKQHYgVuNRZ4XdihYINIIfz+Ahj67OLGI/oPqgtsyTGub3W1GstcqTIl2VcF+acPZY+6mNMDqDKxYZRmoIaAzczAQIDAQABo4IDvjCCA7owHwYDVR0jBBgwFoAUPdNQpdagre7zSmAKZdMh1Pj41g8wHQYDVR0OBBYEFMlYS6CjLUJkL+ZxrL10vDjwuyZbMGsGA1UdEQRkMGKCEmFkZG9ucy5tb3ppbGxhLm9yZ4IRYWRkb24ubW96aWxsYS5vcmeCG3NlcnZpY2VzLmFkZG9ucy5tb3ppbGxhLm9yZ4IcZGlzY292ZXJ5LmFkZG9ucy5tb3ppbGxhLm9yZzAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMHUGA1UdHwRuMGwwNKAyoDCGLmh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9zaGEyLWV2LXNlcnZlci1nMS5jcmwwNKAyoDCGLmh0dHA6Ly9jcmw0LmRpZ2ljZXJ0LmNvbS9zaGEyLWV2LXNlcnZlci1nMS5jcmwwSwYDVR0gBEQwQjA3BglghkgBhv1sAgEwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAHBgVngQwBATCBiAYIKwYBBQUHAQEEfDB6MCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5jb20wUgYIKwYBBQUHMAKGRmh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydFNIQTJFeHRlbmRlZFZhbGlkYXRpb25TZXJ2ZXJDQS5jcnQwDAYDVR0TAQH/BAIwADCCAX0GCisGAQQB1nkCBAIEggFtBIIBaQFnAHYApLkJkLQYWBSHuxOizGdwCjw1mAT5G9+443fNDsgN3BAAAAFUGr5XNQAABAMARzBFAiBaW/XwBQKCJzZKJ25FFmzmIpbueU9SlaYlaDd2lGFQ8QIhAMzdjj1i72TMWaiyFHIlcEEBposADw8u2IARMYZCwE7xAHUAaPaY+B9kgr46jO65KB1M/HFRXWeT1ETRCmesu09P+8QAAAFUGr5XLwAABAMARjBEAiAlxhs3gwDNe6YNjd8YQiAmVCjLRSin+4bUUAJeFFxwjQIgUiVyjmeeXMB/LO/O7TxU77MJUsqoEx2eaXfsL+t0VyUAdgBWFAaaL9fC7NP14b1Esj7HRna5vJkRXMDvlJhV1onQ3QAAAVQavll0AAAEAwBHMEUCIQCuVjE0Ku+wsOhCyrvqBbZzboLkujFA7ZcuivKXg8S02AIgREiCCExrGuP30Dbl+ULzBqnPSVIF6jfj51jnxr2r3wcwDQYJKoZIhvcNAQELBQADggEBAA7+fGZpugTyB8BF7/VgQvWsu+oN7CQhJu9G3pNFpDOrmTyatzr/ope+Zxf7dYxBUnIssW9HxzO0vc6XMl99wFp6JMt2L32UN7G8QnslB1E8lylV9W1b2V1k+VrSlBhtxotsOLHhy4ywcUklga2gJw5LwpNCvhc6RzgurHsnxEe7CnYT01Q2dhgXRTuVMSWERxH4ElwYu3xfXgtfcUTdHtWlDfj4Zdjj5JWnzH9RLWP264rR+xUzFyxVLvynGk9N7S+k3VwKTxen/zeba8IPExRapLqVN5iNxRQo0yfw9u52ahPADcDQw7rYk06gjLmp+jxS+vjCtnQeyFe2pxWGAqvALwEDAAAAAQEBAAACAA== request-method GET request-User-Agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0 response-head HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Etag: "1978b7132937e55c72f7b73e40e3d746"
+Content-Security-Policy: script-src https://ssl.google-analytics.com/ga.js https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.paypalobjects.com/js/external/dg.js https://addons.cdn.mozilla.net; style-src 'self' 'unsafe-inline' https://addons.cdn.mozilla.net; default-src 'self'; frame-src 'self' https://ic.paypal.com https://paypal.com https://www.google.com/recaptcha/ https://www.paypal.com; child-src 'self' https://ic.paypal.com https://paypal.com https://www.google.com/recaptcha/ https://www.paypal.com; img-src 'self' data: blob: https://www.paypal.com/webapps/checkout/ https://www.paypal.com/webapps/hermes/api/logger https://ssl.google-analytics.com https://addons.cdn.mozilla.net https://static.addons.mozilla.net https://sentry.prod.mozaws.net; media-src https://videos.cdn.mozilla.net; object-src 'none'; connect-src 'self' https://sentry.prod.mozaws.net; font-src 'self' https://addons.cdn.mozilla.net; form-action 'self' https://developer.mozilla.org; base-uri 'self' https://addons.mozilla.org; report-uri /__cspreport__
+Date: Sun, 02 Apr 2017 21:20:06 GMT
+Public-Key-Pins: max-age=5184000; includeSubDomains; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; pin-sha256="r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E="
+Server: nginx
+Strict-Transport-Security: max-age=31536000
+Vary: X-Mobile, User-Agent
+X-Content-Type-Options: nosniff
+x-frame-options: DENY
+X-XSS-Protection: 1; mode=block
+ original-response-headers Content-Security-Policy: script-src https://ssl.google-analytics.com/ga.js https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.paypalobjects.com/js/external/dg.js https://addons.cdn.mozilla.net; style-src 'self' 'unsafe-inline' https://addons.cdn.mozilla.net; default-src 'self'; frame-src 'self' https://ic.paypal.com https://paypal.com https://www.google.com/recaptcha/ https://www.paypal.com; child-src 'self' https://ic.paypal.com https://paypal.com https://www.google.com/recaptcha/ https://www.paypal.com; img-src 'self' data: blob: https://www.paypal.com/webapps/checkout/ https://www.paypal.com/webapps/hermes/api/logger https://ssl.google-analytics.com https://addons.cdn.mozilla.net https://static.addons.mozilla.net https://sentry.prod.mozaws.net; media-src https://videos.cdn.mozilla.net; object-src 'none'; connect-src 'self' https://sentry.prod.mozaws.net; font-src 'self' https://addons.cdn.mozilla.net; form-action 'self' https://developer.mozilla.org; base-uri 'self' https://addons.mozilla.org; report-uri /__cspreport__
+Content-Type: text/html; charset=utf-8
+Date: Sun, 02 Apr 2017 21:19:31 GMT
+Etag: "1978b7132937e55c72f7b73e40e3d746"
+Public-Key-Pins: max-age=5184000; includeSubDomains; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; pin-sha256="r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E="
+Server: nginx
+Set-Cookie: sessionid=".eJwNxckRgDAIAMBeqIBcQGzGIRwNmIczjr3rfvaBvPW8tu6AA2YaRRp20Rasw8ZKR-_qfyylBi6qbji7UqMmISaLnNjJWQu8H_ZCF_U:1cumuJ:PddcK2AqjATxURhoHKtlConPUP0"; Domain=.addons.mozilla.org; expires=Tue, 02-May-2017 21:19:31 GMT; httponly; Max-Age=2592000; Path=/; secure
+Strict-Transport-Security: max-age=31536000
+Vary: X-Mobile, User-Agent
+X-Content-Type-Options: nosniff
+x-frame-options: DENY
+X-XSS-Protection: 1; mode=block
+Transfer-Encoding: chunked
+Connection: keep-alive
+ uncompressed-len 0  >�

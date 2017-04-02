@@ -1,0 +1,32 @@
+2017/04/02 23:06:36 heroku-cli/5.7.15-6c1fd28 (linux-amd64) go1.7.5 /usr/lib/heroku/bin/heroku cmd: version
+2017/04/02 23:06:36 triggering background update
+2017/04/02 23:06:36 heroku-cli/5.7.15-6c1fd28 (linux-amd64) go1.7.5 /usr/lib/heroku/bin/heroku cmd: update
+2017/04/02 23:06:36  ▸    Update CLI with apt-get update && apt-get upgrade
+2017/04/02 23:06:36 Update CLI with apt-get update && apt-get upgrade
+
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/update.go:61 (0x41f4ee)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/update.go:50 (0x41f0be)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/update.go:33 (0x423c1a)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/start.go:70 (0x41d50e)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/main.go:22 (0x41531a)
+/usr/local/go/src/runtime/proc.go:183 (0x452db4)
+/usr/local/go/src/runtime/asm_amd64.s:2086 (0x481381)
+
+2017/04/02 23:06:37 heroku-cli: Updating plugins...
+2017/04/02 23:06:37  done
+2017/04/02 23:07:23 heroku-cli/5.7.15-6c1fd28 (linux-amd64) go1.7.5 /usr/lib/heroku/bin/heroku cmd: keys:add
+2017/04/02 23:07:23 Email: 
+2017/04/02 23:08:01  ▸    Authentication failed.
+ ▸    Email or password is not valid.
+ ▸    Check your credentials on https://dashboard.heroku.com
+2017/04/02 23:08:09 heroku-cli/5.7.15-6c1fd28 (linux-amd64) go1.7.5 /usr/lib/heroku/bin/heroku cmd: keys:add
+2017/04/02 23:08:09 Email: 
+2017/04/02 22:08:39 Error: No key to upload
+    at run (/usr/lib/heroku/lib/node_modules/heroku-apps/commands/keys/add.js:93:19)
+    at next (native)
+    at onFulfilled (/usr/lib/heroku/lib/node_modules/co/index.js:65:19)
+2017/04/02 23:08:50 heroku-cli/5.7.15-6c1fd28 (linux-amd64) go1.7.5 /usr/lib/heroku/bin/heroku cmd: keys:add
+2017/04/02 23:19:19 heroku-cli/5.7.15-6c1fd28 (linux-amd64) go1.7.5 /usr/lib/heroku/bin/heroku cmd: create
+2017/04/03 00:15:32 heroku-cli/5.7.15-6c1fd28 (linux-amd64) go1.7.5 /usr/lib/heroku/bin/heroku cmd: run
+2017/04/03 00:19:52 heroku-cli/5.7.15-6c1fd28 (linux-amd64) go1.7.5 /usr/lib/heroku/bin/heroku cmd: run
+2017/04/03 00:20:14 heroku-cli/5.7.15-6c1fd28 (linux-amd64) go1.7.5 /usr/lib/heroku/bin/heroku cmd: open
